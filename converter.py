@@ -26,7 +26,7 @@ def main():
     converted = 0
     deleted = 0
 
-    os.chdir("/Users/I344396/Documents/Flyspot/")
+    os.chdir("*********TARGET DIRECTORY*********")
     
     for file in glob.glob("*.avi"):
         if any(substr in file for substr in args):
